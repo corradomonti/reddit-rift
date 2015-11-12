@@ -1,0 +1,30 @@
+body { margin: 0; }
+
+section { padding-top: 100px; }
+
+.reddit-header { 
+	/* position */
+    position:		fixed;
+	z-index:		9999999999;
+    min-width:		15%;
+    min-height:		20px;
+    /* margins */
+    left:			10px;
+    top:			2px;
+	padding: 		6px 16px;
+	/* color & text */
+	background: 	#cee3f8;
+	color: 			black;
+	font-size: 		16px;
+	font-family: Verdana,sans-serif;
+	/* borders */
+	border-style: solid;
+    border-width: 	2px;
+	border-radius: 	4px;
+	border-color:	#5f99cf;
+}
+
+.reddit-header a {
+	text-decoration: none;
+	color: black;
+}

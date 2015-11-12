@@ -1,0 +1,15 @@
+{
+  "title": "Reddit Rift",
+  "name": "reddit-rift",
+  "version": "0.0.1",
+  "description": "A replacement for the departed reddit toolbar.",
+  "main": "index.js",
+  "author": "Corrado Monti",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
