@@ -11,7 +11,8 @@ if (window.document == document && !document.addedredditheader) {
 			return mapped;
 		}, {} );
 		// Let's build my small header and put it in the DOM
-		var myHeader = "<div class='reddit-header'><a href="+p['reddit-url']+">"+decodeURIComponent(p['reddit-title'])+"</a></div>";
+		var subreddit = p['reddit-url'].replace(/.*reddit\.com(\/.+?\/.+?)\/.*/, "$1");
+		var myHeader = "<div class='reddit-header'><a href="+p['reddit-url']+">"+decodeURIComponent(p['reddit-title'])+" <span class='subreddit'>"+p['reddit-ncom']+" comments on "+subreddit+"</span></a></div>";
 		document.body.insertAdjacentHTML("afterbegin", myHeader);
 	} else console.log("No reddit parameters found.");
 }

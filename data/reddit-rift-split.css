@@ -5,7 +5,7 @@ section { padding-top: 100px; }
 .reddit-header { 
 	/* position */
     position:		fixed;
-	z-index:		9999999999;
+	z-index:		2147483647;
     min-width:		15%;
     min-height:		20px;
     /* margins */
@@ -22,6 +22,13 @@ section { padding-top: 100px; }
     border-width: 	2px;
 	border-radius: 	4px;
 	border-color:	#5f99cf;
+}
+
+.reddit-header .subreddit {
+	font-size: 8px;
+	color: #888;
+	font-weight: bold;
+    padding: 0 1px;
 }
 
 .reddit-header a {
