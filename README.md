@@ -8,7 +8,7 @@ Now we say ***Alzheimer no more*** with Reddit Rift!
 ![demo](https://cloud.githubusercontent.com/assets/2077346/11163485/c95def2c-8ad2-11e5-8584-d2587d59e9bf.gif)
 
 ### Install
-Go to [Release](releases/) above here and click on the last `xpi` file ([or just click here, you lazy fella](releases/download/0.0.1/reddit-rift-0.0.1.xpi)). No Firefox restart required.
+Go to [Release](../../releases/) above here and click on the last `xpi` file ([or just click here, you lazy fella](../../releases/download/0.0.1/reddit-rift-0.0.1.xpi)). No Firefox restart required.
 
 Sooner or later the Add-On will also be avaiable among [Mozilla Add-ons](https://addons.mozilla.org/en-us/firefox/).
 
