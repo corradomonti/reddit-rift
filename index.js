@@ -9,7 +9,7 @@ pageMod.PageMod({
 });
 
 pageMod.PageMod({
-  include: /.*reddit-url.*/,
+  include: /.*reddit-url=.*/,
   contentScriptWhen: "ready",
   contentScriptFile: self.data.url("reddit-rift-split.js"),
   contentStyleFile: self.data.url("reddit-rift-split.css")
