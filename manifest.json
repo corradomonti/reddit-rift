@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "reddit-rift",
+  "version": "0.0.2",
+
+  "description": "A replacement for the departed reddit toolbar.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.reddit.com/*"],
+      "js": ["jquery-3.1.0.min.js","reddit-rift-home.js"]
+    },
+    {
+      "matches": ["*://*/*reddit-url=*"],
+      "css": ["reddit-rift-split.css"],
+      "js": ["reddit-rift-split.js"]
+    }
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "@reddit-rift",
+      "strict_min_version": "38.0"
+    }
+  }
+
+}

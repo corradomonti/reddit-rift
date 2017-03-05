@@ -2,7 +2,7 @@ body { margin: 0; }
 
 section { padding-top: 100px; }
 
-.reddit-header { 
+.reddit-header {
 	/* position */
     position:		fixed;
 	z-index:		2147483647;
