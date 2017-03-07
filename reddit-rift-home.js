@@ -1,8 +1,6 @@
 $('.entry').each(function () {
   var titleObj = $(this).find('a.title');
   var linkUrl = titleObj.attr('href');
-  var isImgurImage = /(^.*imgur.com\/\w+).\w+/.exec(linkUrl);
-  if (isImgurImage) linkUrl = isImgurImage[1];
 	var commentsObj = $(this).find('a.comments');
 	var commentsUrl = commentsObj.attr('href');
 	var numComments = commentsObj.text().split(" ", 1)[0];
